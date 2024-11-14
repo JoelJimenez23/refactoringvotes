@@ -24,7 +24,7 @@ def parse_row(row: list) -> Tuple[str, str, int]:
     Convierte una fila del archivo CSV en datos utilizables.
     
     - Extraccion de metodos: Se creo un metodo especifico para procesar una fila
-    - Simplificacion de condicionales: Maneja errores de conversion de forma especifica con `ValueError`
+    - Simplificacion de condicionales: Maneja errores de conversion de forma especifica con ValueError
     """
     city = row[0]
     candidate = row[1]
